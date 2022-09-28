@@ -8,14 +8,14 @@ body {
 }
 /* Style the header */
 .header {
-    background-color:green;
+    background-color:rgb(16, 54, 85);
     text-align: center;
     padding: 20px;
 }
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: black;
+    background-color: rgb(134, 23, 23);
 }
 /* Style the topnav links */
 .topnav a {
@@ -30,7 +30,7 @@ body {
     float: left;
     width: 300px;
     padding: 15px;
-    background-color: yellow;
+    background-color: rgb(235, 235, 224);
 }
 /* Clear floats after the columns */
 .row:after {
