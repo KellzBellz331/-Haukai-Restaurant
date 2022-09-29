@@ -18,18 +18,35 @@
     </nav>
     <!-- Here is our page's main content -->
     <main>
-      <div class="row">
-        <div class="column">
-          <h2>Location</h2>
+    </body>
+          <h2>Contact Us</h2>
           <p>Paragraph 1.</p>
-          <p>Paragraph 2.</p>
+
+          <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" emial="email"><br>
+            <label for="message">Message:</label><br>
+            <input type="text" id="message" message="message"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+          <h3>Location</h3>
+          <div id="map" style="width:600px;height:600px;background:green"></div>  
+        <script>  
+        function Map123() {  
+        var mapOptions = {  
+        center:new google.maps.LatLng(51.508742,-0.120850),  
+        zoom: 10,  
+        mapTypeId: google.maps.MapTypeId.HYBRID  
+        }  
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);  
+        }  
+        </script>  
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=Map123"></script>  
         </div>
-        <div class="column">
-          <h2>Column 2</h2>
-          <p>Paragraph 1.</p>
-          <p>Paragraph 2.</p>
-        </div>
-      </div>
     </main>
     <!-- And here is our main footer that is used across all the pages of our website -->
     <footer class="footer">
