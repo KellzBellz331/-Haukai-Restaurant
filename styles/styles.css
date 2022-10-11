@@ -12,18 +12,17 @@ body {
 }
 /* Style the header */
 .header {
-  background-color: #114e06be;
-  background-blend-mode: color-burn;
+  background-color: rgba(3, 3, 48, 0.788);
     text-align: center;
     padding: 20px;
     font-family: 'Segoe UI';
-    color: rgba(3, 3, 48, 0.788);
-    font-size: larger;
+    color: rgb(255, 255, 255);
+    font-size: large;
 }
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color:rgba(146, 178, 204, 0.637);
+    background-color:rgba(123, 128, 133, 0.637);
 }
 /* Style the topnav links */
 .topnav a {
