@@ -7,16 +7,17 @@ body {
   max-width: auto;
   background-color: #f2f2f2;
   font-family: Verdana, Geneva;
-  color: rgba(46, 17, 8, 0.856);
+  color: rgba(51, 6, 6, 0.911);
 
 }
 /* Style the header */
 .header {
-    background-color:#f2f2f2;;
+  background-color: #114e06be;
+  background-blend-mode: color-burn;
     text-align: center;
     padding: 20px;
     font-family: 'Segoe UI';
-    color: rgba(13, 13, 14, 0.541);
+    color: rgba(3, 3, 48, 0.788);
     font-size: larger;
 }
 /* Style the top navigation bar */
@@ -28,7 +29,7 @@ body {
 .topnav a {
     float: left;
     display: block;
-    color: rgba(2, 26, 59, 0.993);
+    color: rgba(3, 12, 51, 0.993);
     text-align: center;
     padding: 14px 16px;
     text-decoration:none;
