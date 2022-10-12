@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haukai Restaurant</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+      function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+      }
+    </script>
   </head>
   <body>
     <!-- Here is our main header that is used across all the pages of our website -->
@@ -34,6 +40,7 @@
             <input type="text" id="email" emial="email"><br>
             <label for="message">Message:</label><br>
             <textarea id="message" name="message"style="height:200px"></textarea><br><br>
+            <div class="g-recaptcha" data-sitekey=6LeC0nciAAAAADRxFkTPC6VpHOEq-INoyLvadgoi></div>
             <input type="submit" value="Submit"><br><br>
           </form>
           <div class="row">
