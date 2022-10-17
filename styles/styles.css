@@ -1,7 +1,8 @@
 /* Universal box sizing */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 /* Set the size of the body */
 body {
   max-width: auto;
@@ -10,67 +11,78 @@ body {
   color: rgba(51, 6, 6, 0.911);
 
 }
+
 /* Style the header */
 .header {
   background-color: rgba(3, 3, 48, 0.788);
-    text-align: center;
-    padding: 20px;
-    font-family: 'Segoe UI';
-    color: rgb(255, 255, 255);
-    font-size: large;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Segoe UI';
+  color: rgb(255, 255, 255);
+  font-size: large;
 }
+
 /* Style the top navigation bar */
 .topnav {
-    overflow: hidden;
-    background-color: rgba(115, 113, 207, 0.342);
+  overflow: hidden;
+  background-color: rgba(115, 113, 207, 0.342);
 }
+
 /* Style the topnav links */
 .topnav a {
-    float: left;
-    display: block;
-    color: rgba(3, 12, 51, 0.993);
-    text-align: justify;
-    padding: 14px 16px;
-    text-decoration:none;
-    font-size: larger;
-    font-family:Segoe UI, Verdana, Geneva;
+  float: left;
+  display: block;
+  color: rgba(3, 12, 51, 0.993);
+  text-align: justify;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: larger;
+  font-family: Segoe UI, Verdana, Geneva;
 }
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
+
 /* Create two equal columns that float next to each other */
 .column {
-    float: left;
-    width: 50%;
-    height: auto;
-    padding: 15px;
-    background-color: #f2f2f2;
-    font-family: Verdana, Geneva;
-    color: rgba(46, 17, 8, 0.856);
+  float: left;
+  width: 50%;
+  height: auto;
+  padding: 15px;
+  background-color: #f2f2f2;
+  font-family: Verdana, Geneva;
+  color: rgba(46, 17, 8, 0.856);
 }
+
 @media only screen and (max-width: 768px) {
+
   /* For mobile phones: */
   [class*="column"] {
     width: 100%;
   }
 }
+
 /* Clear floats after the columns */
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.footer {
-    background-color: rgba(115, 113, 207, 0.342);
-    text-align: center;
-    padding: 10px;
-    font-family: Verdana, Geneva;
-    font-size: smaller;
-    color: rgba(46, 17, 8, 0.856);
+  content: "";
+  display: table;
+  clear: both;
 }
 
-input[type=text], select, textarea {
+.footer {
+  background-color: rgba(115, 113, 207, 0.342);
+  text-align: center;
+  padding: 10px;
+  font-family: Verdana, Geneva;
+  font-size: smaller;
+  color: rgba(46, 17, 8, 0.856);
+}
+
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -125,9 +137,13 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
+
 @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-    }
+
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
