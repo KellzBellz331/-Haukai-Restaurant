@@ -24,7 +24,7 @@
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Open index.html",
+            "name": "Open home.html",
             "file": "c:\\Users\\kelly\\OneDrive\\Documents\\-Haukai-Restaurant\\home.html"
         }
     ]
