@@ -24,8 +24,8 @@
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Open home.html",
-            "file": "c:\\Users\\kelly\\OneDrive\\Documents\\-Haukai-Restaurant\\home.html"
+            "name": "Open index.html",
+            "file": "c:\\Users\\kelly\\OneDrive\\Documents\\-Haukai-Restaurant\\index.html"
         }
     ]
 }
