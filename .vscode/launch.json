@@ -18,14 +18,11 @@
             "request": "launch",
             "type": "node-terminal"
         },
-
-
-        
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Open index.html",
-            "file": "c:\\Users\\kelly\\OneDrive\\Documents\\-Haukai-Restaurant\\index.html"
+            "name": "Open Test.html",
+            "file": "c:\\Users\\kelly\\OneDrive\\Documents\\-Haukai-Restaurant\\styles\\Test.html"
         }
     ]
-}
+}           
