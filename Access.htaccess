@@ -1,5 +1,0 @@
-AuthType Basic
-AuthName "Restricted access"​
-AuthUserFile "/app/www/.htpasswd"​
-Require valid-user​
-Kelly Hanifin:qY4QKshEH/3oo
